@@ -1,0 +1,62 @@
+/* --- CSS RESET & FONT DASAR --- */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Mode Terang Default */
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #004d99; /* Biru Laut Tua */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* --- TATA LETAK DATA --- */
+.card, .data-item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsif */
+    gap: 15px;
+}
+
+/* --- PERINGATAN --- */
+.peringatan-box {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ff9900; /* Oranye untuk Peringatan */
+    border-radius: 5px;
+    font-weight: bold;
+    display: none; /* Sembunyikan default, tampilkan dengan JS */
+}
+
+/* --- MODE GELAP (CRITICAL) --- */
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.dark-mode header {
+    background-color: #002b4d;
+}
+
+.dark-mode .card, .dark-mode .data-item {
+    background-color: #2c2c2c;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
