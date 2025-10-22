@@ -5,7 +5,7 @@
 **Deskripsi:** Aplikasi web statis yang menyajikan simulasi jadwal Pasang Surut dan Cuaca terkini di area Pelabuhan Lamongan. Tujuan utama adalah memberikan informasi cepat dan peringatan dini sederhana untuk meningkatkan keselamatan dan perencanaan aktivitas maritim harian.
 
 ### Cara Menjalankan/Mengakses Karya
-1.  **Akses Langsung:** Kunjungi tautan publikasi di [**Masukkan LINK GitHub Pages/Netlify di sini**].
+1.  **Akses Langsung:** Kunjungi tautan publikasi.
 2.  **Akses Offline:** Clone atau unduh repositori ini. Buka file `index.html` menggunakan browser (Chrome/Firefox).
 
 ### Teknologi yang Digunakan
